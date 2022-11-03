@@ -1,2 +1,63 @@
 @import './variables';
 @import './mixins';
+
+.projects-section {
+    background-color: $secondary-bg-color;
+    @include flexCenter(column);
+    padding-top: 35vh;
+    
+    
+    .projects-container {
+        width: 60vw;
+        
+        .title-container {
+          
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 4vh;
+            h1 {
+                margin: 0;
+                color: $secondary-text-color;
+            }
+        }
+        
+        .project {
+            display: flex;
+            padding-bottom: 15vh;
+            justify-content: space-between;
+            
+            .info-section {
+                @include flexCenter(column);
+                align-items: flex-start;
+                width: 20vw;
+                // padding-right: 10vw;
+
+                h2 {
+                    color: $third-text-color;
+                }
+
+                .btn-container {
+                        display: flex;
+                        gap: 10px;
+                        margin-top: 20px;
+                        @include button();
+                    
+                }
+            }
+            
+            img {
+                height: 15vw;
+            }
+
+            .right {
+                padding-right: 0;
+                // padding-left: 10vw;
+                
+                align-items: flex-end;
+                text-align: end;
+            }
+    } 
+
+    
+    }
+}
