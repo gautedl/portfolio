@@ -1,0 +1,56 @@
+@import './variables';
+@import './mixins';
+
+.about-container {
+    background-color: $secondary-bg-color;
+    @include flexCenter(row);
+    padding-top: 35vh;
+    gap: 10vw;
+
+    .about {
+        @include flexCenter(column);
+        width: 30vw;
+        gap: 4vh;
+        span {
+            word-wrap: normal;
+            line-height: 1.5rem;
+        }
+    }
+
+    .headshot {
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    .socials-container{
+        margin-top: 20px;
+        @include flexCenter(row);
+        gap: 15px;
+        background-color: $third-bg-color;
+        border-radius: 8px;
+        width: fit-content;
+        padding: 5px 20px;
+        img {
+            cursor: pointer;
+            opacity: 80%;
+            filter: invert(100%);
+            width: 30px;
+            transition: 0.5s ease;
+        }
+
+        img:hover {
+            opacity: 100%;
+        }
+    }
+}
+
+
+.tech-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 2vw;
+  img {
+    width: 80px;
+  }
+}

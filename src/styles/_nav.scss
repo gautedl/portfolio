@@ -1,0 +1,28 @@
+@import './variables';
+@import './mixins';
+
+.nav-container {
+    background-color: $bg-color;
+    @include flexCenter(row);
+    justify-content: space-between;
+    padding: 0 5vw;
+    height: 5vh;
+    position: sticky;
+    top: 0px;
+
+    .route-container {
+        @include flexCenter(row);
+        gap: 2vw;
+    }
+
+    h3 {
+        cursor: pointer;
+        color: $third-text-color;
+        margin: 0;
+        transition: 0.5s ease;
+    }
+
+    h3:hover {
+        color: $main-text-color;
+    }
+}
