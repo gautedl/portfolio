@@ -17,7 +17,7 @@
     }
 
   
-    span {
+    .hi {
         color: $secondary-text-color;
     }
 
@@ -26,5 +26,32 @@
         text-transform: uppercase;
         font-size: .8vw;
         letter-spacing: .1rem;
+    }
+
+    span {
+        transition: all .3s ease-out;
+        display: inline-block;
+        // animation: bounce 1s infinite;
+        // animation-play-state: paused;
+    }
+    
+    span:hover {
+        transform: translate(0, -1rem);
+        animation-play-state: running;
+    }
+
+    @keyframes bounce {
+        from {
+            transform: translate(0, 0);
+        }
+
+        50% {
+            transform: translate(0, -5rem);
+        }
+
+        to {
+            transform: translate(0, 0);
+        }
+        
     }
 }

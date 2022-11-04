@@ -9,16 +9,32 @@ function Footer() {
         <button type="button">Back to Top</button>
       </div>
       <div className="link-container">
-        <img
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-          alt="github"
-        />
-        <img
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
-          alt="linkedin"
-        />
-        <img src={instagram} alt="instagram" />
-        <img src={email} alt="e-mail" />
+        <a href="https://github.com/gautedl" target="_blank" rel="noreferrer">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            alt="github"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/feed/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
+            alt="linkedin"
+          />
+        </a>
+        <a
+          href="https://instagram.com/gautelorentsen"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={instagram} alt="instagram" />
+        </a>
+        <a href="mailto:gudelo97@gmail.com">
+          <img src={email} alt="e-mail" />
+        </a>
       </div>
     </div>
   );

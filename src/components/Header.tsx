@@ -7,7 +7,7 @@ function Header() {
     <>
       <div className="header-container">
         <h1>
-          <span>Hi,</span> I'm Gaute
+          <span className="hi">Hi,</span> <span>I'm</span> <span>Gaute</span>
         </h1>
         <h2>Frontend Developer, Crypto Enthusiast, Photographer</h2>
       </div>
