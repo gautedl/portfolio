@@ -1,12 +1,17 @@
 import React from 'react';
 import instagram from '../images/logos/instagram.svg';
 import email from '../images/logos/email.svg';
+import { Link } from 'react-scroll';
 
 function Footer() {
   return (
     <div className="footer">
       <div className="btn-container">
-        <button type="button">Back to Top</button>
+        <button type="button">
+          <Link to="header" spy={true} smooth={true}>
+            Back Top
+          </Link>
+        </button>
       </div>
       <div className="link-container">
         <a href="https://github.com/gautedl" target="_blank" rel="noreferrer">

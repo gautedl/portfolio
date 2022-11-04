@@ -7,7 +7,7 @@ import email from '../images/logos/email.svg';
 function About() {
   return (
     <div className="about-section">
-      <div className="about-container">
+      <div className="about-container" id="about">
         <div className="about">
           <div className="title-container">
             <h1>About</h1>

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import '../styles/general.scss';
 import { send } from 'emailjs-com';
 import { SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY } from '../KEYS/KEYS';
@@ -10,7 +10,6 @@ function Contact() {
     from_subject: '',
     message: '',
   });
-  const form = useRef() as React.MutableRefObject<HTMLFormElement>;
 
   const handleChange = (e: { target: { name: any; value: any } }) => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
@@ -34,13 +33,13 @@ function Contact() {
   };
 
   return (
-    <div className="contact-section">
+    <div id="contact" className="contact-section">
       <div className="contact-container">
         <div className="title-container">
           <h1>Contact Me</h1>
         </div>
         <div className="contact-form">
-          <form ref={form} className="inputs">
+          <form className="inputs">
             <input
               type="text"
               name="from_name"
