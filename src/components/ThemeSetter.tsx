@@ -26,7 +26,11 @@ export default function ThemeSetter() {
         id="darkmode-toggle"
         onChange={switchTheme}
       />
-      <label className={`${theme}`} htmlFor="darkmode-toggle" />
+      {theme === '' ? (
+        <label className={`light`} htmlFor="darkmode-toggle" />
+      ) : (
+        <label className={`${theme}`} htmlFor="darkmode-toggle" />
+      )}
     </>
   );
 }

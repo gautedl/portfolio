@@ -7,13 +7,20 @@ type Props = {
 
 const ThemeProvider = ({ children }: Props) => {
   const globalTheme = localStorage.getItem('globalTheme') || 'light';
+
   const [theme, setTheme] = useState(globalTheme);
 
   useEffect(() => {
     setTheme(localStorage.getItem('globalTheme') || '');
   }, []);
 
-  return (
+  return theme === '' ? (
+    <ThemeContext.Provider value={{ theme, setTheme }}>
+      <div className={`theme--light`} data-theme={`theme--${theme}`}>
+        {children}
+      </div>
+    </ThemeContext.Provider>
+  ) : (
     <ThemeContext.Provider value={{ theme, setTheme }}>
       <div className={`theme--${theme}`} data-theme={`theme--${theme}`}>
         {children}
