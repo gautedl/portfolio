@@ -1,0 +1,39 @@
+@import './variables';
+@import './mixins';
+
+$themes: (
+    light: (
+        bg-color: rgb(226, 226, 226),
+        secondary-bg-color: $secondary-bg-color,
+        third-bg-color: $third-bg-color,
+        main-text-color: $main-text-color,
+        secondary-text-color: $secondary-text-color,
+        third-text-color: $third-text-color,
+    ),
+    dark: (
+        bg-color: $bg-color-dark,
+        secondary-bg-color: $secondary-bg-color-dark,
+        third-bg-color: $third-bg-color-dark,
+        main-text-color: $main-text-color,
+        secondary-text-color: $secondary-text-color-dark,
+        third-text-color: $third-text-color-dark,
+    )
+)
+
+// :root {
+//     --bg-color: $bg-color,
+//     --secondary-bg-color: $secondary-bg-color,
+//     --third-bg-color: $third-bg-color,
+//     --main-text-color: $main-text-color,
+//     --secondary-text-color: $secondary-text-color,
+//     --third-text-color: $third-text-color,
+// }
+
+// [data-theme="dark"] {
+//     --bg-color: $bg-color-dark,
+//     --secondary-bg-color: $secondary-bg-color-dark,
+//     --third-bg-color: $third-bg-color-dark,
+//     --main-text-color: $main-text-color,
+//     --secondary-text-color: $secondary-text-color-dark,
+//     --third-text-color: $third-text-color-dark,
+// }

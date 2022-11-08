@@ -16,6 +16,7 @@ function Footer() {
       <div className="link-container">
         <a href="https://github.com/gautedl" target="_blank" rel="noreferrer">
           <img
+            className="footer-img"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
             alt="github"
           />
@@ -26,6 +27,7 @@ function Footer() {
           rel="noreferrer"
         >
           <img
+            className="footer-img"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
             alt="linkedin"
           />
@@ -35,10 +37,10 @@ function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={instagram} alt="instagram" />
+          <img className="footer-img" src={instagram} alt="instagram" />
         </a>
         <a href="mailto:gudelo97@gmail.com">
-          <img src={email} alt="e-mail" />
+          <img className="footer-img" src={email} alt="e-mail" />
         </a>
       </div>
     </div>

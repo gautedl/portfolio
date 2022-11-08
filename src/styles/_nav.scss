@@ -2,6 +2,11 @@
 @import './mixins';
 
 .nav-container {
+    @include themed() {
+        color: t("third-text-color");
+        background-color: t("bg-color");
+    }
+    z-index: 1;
     background-color: $bg-color;
     @include flexCenter(row);
     justify-content: space-between;
@@ -17,12 +22,14 @@
 
     h3 {
         cursor: pointer;
-        color: $third-text-color;
         margin: 0;
         transition: 0.5s ease;
     }
 
     h3:hover {
-        color: $main-text-color;
+        @include themed() {
+            color: t("main-text-color");
+            background-color: t("bg-color");
+        }
     }
 }

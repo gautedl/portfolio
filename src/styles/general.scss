@@ -1,5 +1,6 @@
 @import './variables';
 @import './mixins';
+@import './theme-config';
 
 @import './header';
 @import './about';
@@ -7,6 +8,7 @@
 @import './projects';
 @import "./contact";
 @import './footer';
+@import './themeSetter';
 
 body {
     margin: 0;
@@ -22,3 +24,11 @@ body {
       monospace;
   }
   
+[data-theme="theme--dark"] {
+  .footer-img {
+    filter: invert(100%);
+  }
+  .project-img {
+    filter: brightness(95%);
+  }
+}

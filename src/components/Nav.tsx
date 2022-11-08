@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/general.scss';
 import { Link } from 'react-scroll';
+import ThemeSetter from './ThemeSetter';
 
 function Nav() {
   return (
@@ -22,6 +23,7 @@ function Nav() {
             Contact
           </Link>
         </h3>
+        <ThemeSetter />
       </div>
     </nav>
   );

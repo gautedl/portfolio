@@ -2,14 +2,17 @@
 @import './mixins';
 
 .projects-section {
-    background-color: $secondary-bg-color;
+    @include themed() {
+        color: t("main-text-color");
+        background-color: t("secondary-bg-color");
+    }
     @include flexCenter(column);
-    padding-top: 35vh;
+    padding-top: 30vh;
     
     
     .projects-container {
         width: 60vw;
-        
+        padding-top: 5vh;
         .title-container {
           
             display: flex;
@@ -17,7 +20,10 @@
             margin-bottom: 4vh;
             h1 {
                 margin: 0;
-                color: $secondary-text-color;
+                @include themed() {
+                    color: t("secondary-text-color");
+                }
+            
             }
         }
         
@@ -33,7 +39,10 @@
                 // padding-right: 10vw;
 
                 h2 {
-                    color: $third-text-color;
+                    @include themed() {
+                        color: t("third-text-color");
+                        background-color: t("secondary-bg-color");
+                    }
                 }
 
                 .btn-container {

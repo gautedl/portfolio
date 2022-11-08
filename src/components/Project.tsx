@@ -41,7 +41,7 @@ function Project({
           </div>
         </div>
         <div className="project-img-section">
-          <img src={img} alt={altText} />
+          <img className="project-img" src={img} alt={altText} />
         </div>
       </div>
     );
@@ -49,7 +49,7 @@ function Project({
     return (
       <div className="project">
         <div className="project-img-section">
-          <img src={img} alt={altText} />
+          <img className="project-img" src={img} alt={altText} />
         </div>
         <div className="info-section right">
           <h2 className="project-title">{title}</h2>
