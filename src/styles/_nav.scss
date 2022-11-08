@@ -32,4 +32,34 @@
             background-color: t("bg-color");
         }
     }
+
+    @media (max-width: 645px) {
+        h3 {
+            font-size: 1em;
+        }
+
+        
+    }
+
+    @media (max-width: 500px) {
+        h3 {
+            font-size: .8em;
+        }
+    }
+
+    @media (max-width: 410px) {
+        h3 {
+            font-size: .7em;
+        }
+
+        .nav-title {
+            text-indent:-9999px;
+        }
+        .nav-title:before {
+            text-indent: 0;
+            content: "Gaute";
+            float: left;
+        }
+    
+    }
 }

@@ -85,6 +85,14 @@ $themes: (
         color: rgba(0, 0, 0, 0.65);
         transform: translateY(0);
       }
+
+      @media (max-width: 645px) {
+        button {
+          min-width: 1rem;
+          font-size: .8rem;
+          padding: .5rem 1rem;
+        } 
+      }
 }
 
 @mixin themed() {

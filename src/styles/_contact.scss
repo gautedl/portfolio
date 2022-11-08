@@ -22,7 +22,7 @@
             .inputs {
                 display: flex;
                 flex-direction: column;
-                width: 20vw;
+                width: 30vw;
                 gap: 10px;
 
                 input {
@@ -61,6 +61,34 @@
             h1 {
                 margin: 0;
             }
+        }
+    }
+
+    @media (max-width: 961px) {
+        .contact-container {
+            width: 80vw;
+
+            .contact-form {
+
+                .inputs {
+                    width: 40vw;
+                }
+            }
+
+        }
+    }
+
+    @media (max-width: 645px) {
+        .contact-container {
+            width: 80vw;
+
+            .contact-form {
+
+                .inputs {
+                    width: 50vw;
+                }
+            }
+
         }
     }
 

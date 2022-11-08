@@ -17,36 +17,10 @@ function About() {
             I have always had an interest for tech and science.
             <br />
             <br />
-            Running a photography business and doing a CS degree got me burnt
-            out, and unsure of what I wanted to do. After deciding to take a
-            break from studying I quickly realized that the development way was
-            the right way.
-            <br />
-            I missed programming...
-            <br />
-            <br />
-            I decided to take web development more seriously, starting with
-            frontend with the goal of going fullstack. I had gotten very
-            interested in crypto over the prior year, leading me to my ultimate
-            goal of finding a web3 job.
-            <br />
-            <br />
-            Member of{' '}
-            <a
-              href="https://twitter.com/AlfaDAO_"
-              target="_blank"
-              rel="noreferrer"
-            >
-              AlfaDAO
-            </a>{' '}
-            and{' '}
-            <a
-              href="https://twitter.com/EarnWeb3DAO"
-              target="_blank"
-              rel="noreferrer"
-            >
-              EarnWeb3DAO
-            </a>
+            The past year I decided to take web development more seriously,
+            starting with frontend with the goal of going fullstack. I had
+            gotten very interested in crypto over the prior year, leading me to
+            my ultimate goal of finding a web3 job.
           </span>
           <div className="socials-container">
             <a
@@ -81,7 +55,11 @@ function About() {
             </a>
           </div>
         </div>
-        <div className="tech-container">
+        <div
+          className="tech-container"
+          data-aos="zoom-in-left"
+          data-aos-easing="ease-in"
+        >
           <img
             title="Javascript"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"

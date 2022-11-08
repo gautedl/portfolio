@@ -23,7 +23,11 @@ function Project({
 
   if (side === 'left') {
     return (
-      <div className="project">
+      <div
+        className="project left-side"
+        data-aos="fade-right"
+        data-aos-easing="ease-in"
+      >
         <div className="info-section">
           <h2 className="project-title">{title}</h2>
           <span>{description}</span>
@@ -47,7 +51,11 @@ function Project({
     );
   } else if (side === 'right') {
     return (
-      <div className="project">
+      <div
+        className="project right-side"
+        data-aos="fade-left"
+        data-aos-easing="ease-in-out"
+      >
         <div className="project-img-section">
           <img className="project-img" src={img} alt={altText} />
         </div>

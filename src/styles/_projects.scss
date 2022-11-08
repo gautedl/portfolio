@@ -65,8 +65,50 @@
                 align-items: flex-end;
                 text-align: end;
             }
-    } 
+        } 
+    }
 
+    @media (max-width: 645px) {
+        .projects-container {
+            width: 80vw;
+
+            .project {
+                .info-section {
+                    width: 40vw;
+                }
+
+                img {
+                    width: 40vw;
+                    height: auto;
+                }
+            }
+        }
     
+    }
+
+    @media (max-width: 500px) {
+        .projects-container {
+            
+
+            .project {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .info-section {
+                    width: 80vw;
+                    align-items: center;
+                }
+
+                img {
+                    margin-top: 20px;
+                    width: 80vw;
+                    height: auto;
+                } 
+            }
+            .left-side {
+                flex-direction: column-reverse;
+            }
+        
+        }
     }
 }

@@ -84,5 +84,21 @@
         text-decoration: none;
 
     }
+
+    @media (max-width: 645px) {
+        .about-container {
+            @include flexCenter(column);
+            width: 80vw;
+
+
+            .title-container {
+                margin: 0px;
+            }
+
+            .about {
+                width: 80vw;
+            }
+        }
+    }
 }
 
