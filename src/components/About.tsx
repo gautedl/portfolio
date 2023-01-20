@@ -60,55 +60,126 @@ function About() {
           data-aos="zoom-in-left"
           data-aos-easing="ease-in"
         >
-          <img
-            title="Javascript"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-            alt="javascript"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-            alt="HTML"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-            alt="CSS"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-            alt="React"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
-            alt="SCSS"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-            alt="Typesscript"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
-            alt="Firebase"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-            alt="git"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
-            alt="vscode"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
-            alt="linux"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
-            alt="npm"
-          />
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
-            alt="webpack"
-          />
+          <div className="img-container">
+            <img
+              title="Javascript"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              alt="javascript"
+            />
+            <p>JavaScript</p>
+          </div>
+
+          <div className="img-container">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              alt="HTML"
+            />
+            <p>HTML</p>
+          </div>
+
+          <div className="img-container">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              alt="CSS"
+            />
+            <p>CSS</p>
+          </div>
+
+          <div className="img-container">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              alt="React"
+            />
+            <p>React</p>
+          </div>
+
+          <div className="img-container">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+              alt="SCSS"
+            />
+            <p>SASS</p>
+          </div>
+
+          <div className="img-container">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+              alt="TypeScript"
+            />
+            <p>TypeScript</p>
+          </div>
+
+          <div className="img-container">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+              alt="Firebase"
+            />
+            <p>Firebase</p>
+          </div>
+
+          <div className="img-container">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+              alt="git"
+            />
+            <p>Git</p>
+          </div>
+
+          <div className="img-container">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+              alt="vscode"
+            />
+            <p>VsCode</p>
+          </div>
+
+          <div className="img-container">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+              alt="linux"
+            />
+            <p>Linux</p>
+          </div>
+
+          <div className="img-container">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+              alt="npm"
+            />
+            <p>npm</p>
+          </div>
+
+          <div className="img-container">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
+              alt="webpack"
+            />
+            <p>Webpack</p>
+          </div>
+
+          <div className="img-container">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+              alt="node.js"
+            />
+            <p>Node.js</p>
+          </div>
+
+          <div className="img-container">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+              alt="express.js"
+            />
+            <p>Express.js</p>
+          </div>
+
+          <div className="img-container">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+              alt="mongodb"
+            />
+            <p>MongoDB</p>
+          </div>
         </div>
       </div>
     </div>

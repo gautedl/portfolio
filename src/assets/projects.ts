@@ -2,8 +2,26 @@ import whereswaldo from '../images/whereswaldo.png'
 import webshop from '../images/webshop.png'
 import cvbuilder from '../images/cvbuilder.png'
 import battleship from '../images/battleship.png'
+import odinbook from "../images/odinbook.png"
+import blog from "../images/blog.png"
 
 const projects: {title: string, description:string, github: string, website:string, img:string, alt:string}[] = [
+    {
+        title: "OdinBook",
+        description: "Social media application. Make a user, add friends, post a post, post a comment. Built with MERN stack",
+        github: "https://github.com/gautedl/odinbook-frontend",
+        website: "https://gautedl.github.io/odinbook-frontend/",
+        img: odinbook,
+        alt: "Odinbook"
+    },
+    {
+        title: "Blog",
+        description: "A blog frontend and backend. Built with MERN stack. Admin backend fro CRUD actions",
+        github: "https://github.com/gautedl/blog-frontend",
+        website: "",
+        img: blog,
+        alt: "Blog",
+    },
     {
         title : "Where's Waldo",
         description: "Fullstack application with a leaderboard and server side validation built with React and Firebase.",
@@ -35,7 +53,8 @@ const projects: {title: string, description:string, github: string, website:stri
         website: "",
         img: battleship,
         alt: "Battleship"
-    }
+    },
+    
 ]
 
 
