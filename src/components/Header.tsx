@@ -11,7 +11,7 @@ function Header() {
             <span className="first"> I'm</span> <span>Gaute</span>
           </div>
         </h1>
-        <h2>Frontend Developer, Crypto Enthusiast, Photographer</h2>
+        <h2>Fullstack Developer, Crypto Enthusiast, Photographer</h2>
       </div>
     </>
   );

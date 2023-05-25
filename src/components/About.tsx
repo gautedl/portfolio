@@ -111,10 +111,18 @@ function About() {
 
           <div className="img-container">
             <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
-              alt="Firebase"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
+              alt="csharp"
             />
-            <p>Firebase</p>
+            <p>C#</p>
+          </div>
+
+          <div className="img-container">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-plain.svg"
+              alt="Dotnet"
+            />
+            <p>.Net</p>
           </div>
 
           <div className="img-container">
